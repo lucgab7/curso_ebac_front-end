@@ -1,20 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Meu portal de noticias.</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body> 
-            <h1>Formulário de cadastro</h1>
-            <label for="nome">Nome:</label>
-            <input id="nome" type="text"/><br/>
-            <label for="email">E-mail:</label>
-            <input id="email" type="email"/><br/>
-            <label for="senha">Senha:</label>
-            <input id="senha" type="password"/><br/>
-            <button type="submit">
-                Cadastrar
-            </button>
+<body>
+    <header>
+        <div class="container">
+        <h1>Meu portal de notícias.</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                </li>
+                <li>
+                    <a href="#economy" title="Ir para a secção de noticias">Economia</a>
+                </li>
+                <li>
+                    <a href="#tecnologia" title="Ir para a seção de tecnologia">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#entreterimento" title="Ir para a secção de entreterimento">Entreterimento</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header><br/><br/>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+            <article>
+                <img src="./imagem/futebol-brasil-argentina.jpg" alt="Bola de futebol no gramado"/>
+                <header>
+                    <time>28/04/2025 às 19:28</time>
+                </header>
+                <h3>Grande clássico na noite de hoje</h3>
+                <p>
+                    O jogo entre Brasil x Argentina é um dos maiores clássicos do futebol mundial, conhecido como o "Superclássico das Américas". Essa rivalidade vai muito além do esporte, envolvendo história, cultura e paixão nacional dos dois países.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/futebol-americano.jpg" alt="Jogador de futebol americano correndo"/>
+                <header>
+                    <time>28/04/2025 às 19:29</time>
+                </header>
+                <h3>Noite do Superbowl</h3>
+                <p>
+                    O Super Bowl é o jogo mais importante do futebol americano profissional nos Estados Unidos e um dos maiores eventos esportivos do mundo. Ele determina o campeão da National Football League (NFL) e acontece no início de fevereiro, encerrando a temporada da liga.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/basquete.jpg" title="Vista aérea de uma quadra de basquete"/>
+                <header>
+                    <time>28/04/2025 às 19:29</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    A NBA (National Basketball Association) é a principal liga de basquete do mundo e um dos maiores esportes globais em termos de popularidade, talento e entretenimento.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/basquete.jpg" title="Vista aérea de uma quadra de basquete"/>
+                <header>
+                    <time>28/04/2025 às 19:30</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    A NBA (National Basketball Association) é a principal liga de basquete do mundo e um dos maiores esportes globais em termos de popularidade, talento e entretenimento.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="conteiner">
+            <h2>Economia</h2>
+            <div class="articles">
+            <article>
+                <img src="./imagem/dolar.jpg" alt="Muitos dólares"/>
+                <header>
+                    <time>28/04/2025 às 19:31</time>
+                </header>
+                <h3>Dólar em alta de 0.50%</h3>
+                <p>
+                    O dólar americano (USD) é a moeda mais importante do mundo, servindo como principal reserva global e meio de troca internacional.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            <article style="position: relative">
+                <img src="./imagem/euro.jpg" alt="Várias notas de euro"/>
+                <header>
+                    <time>28/04/2025 às 19:31</time>
+                </header>
+                <h3>Euro em queda de 0.40%</h3>
+                <p>
+                    O euro (EUR) é a moeda oficial da União Europeia (UE) e a segunda mais importante do mundo, depois do dólar americano.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/petroleo.jpg" alt="Extração de petróleo"/>
+                <header>
+                    <time>28/04/2025 às 19:32</time>
+                </header>
+                <h3>Alta no preço do barril do petróleo</h3>
+                <p>
+                    O petróleo é um dos recursos naturais mais importantes do mundo, influenciando a economia, a política e o meio ambiente. 
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="tecnologia">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+            <article>
+                <img src="./imagem/nintendo-switch.jpg" alt="Nintendo Switch 2"/>
+                <header>
+                    <time>28/04/2025 às 19:32</time>
+                </header>
+                <h3>Está chegando o lançamento do Nintendo Switch 2</h3>
+                <p>
+                    O Nintendo Switch 2 (nome ainda não oficial) é o aguardado sucessor do Nintendo Switch, um dos consoles mais vendidos da história. Embora a Nintendo não tenha confirmado todos os detalhes, vazamentos e rumores pintam um cenário empolgante.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/xbox-series-x.jpg" alt="Xbox one series x"/>
+                <header>
+                    <time>28/04/2025 às 19:34</time>
+                </header>
+                <h3>As vendas do Xbox One continuam boas</h3>
+                <p>
+                    O Xbox Series X é o console de última geração da Microsoft, lançado em novembro de 2020, e representa um salto significativo em performance, tecnologia e experiência de jogo em relação ao Xbox One.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/playstation-5.jpg" title="playstation-5"/>
+                <header>
+                    <time>28/04/2025 às 19:36</time>
+                </header>
+                <h3>O Playstation 5 tem desmpenho superior aos concorrentes </h3>
+                <p>
+                    O PlayStation 5 (PS5) é o console de última geração da Sony, lançado em novembro de 2020, e representa uma evolução significativa em tecnologia, performance e experiência de jogo em relação ao PS4. 
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/playstation-5.jpg" title="playstation-5"/>
+                <header>
+                    <time>28/04/2025 às 19:36</time>
+                </header>
+                <h3>O Playstation 5 tem desmpenho superior aos concorrentes </h3>
+                <p>
+                    O PlayStation 5 (PS5) é o console de última geração da Sony, lançado em novembro de 2020, e representa uma evolução significativa em tecnologia, performance e experiência de jogo em relação ao PS4. 
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            </div>
+        </div>
+    </section>
+    <section id="entreterimento">
+        <div class="conteiner">
+            <h2>Entreterimento</h2>
+            <div class="articles">
+            <article>
+                <img src="./imagem/naruto-classico.jpg" alt="Naruto Classico"/>
+                <header>
+                    <time>28/04/2025 às 19:38</time>
+                </header>
+                <h3>Naruto Clássico envelheceu como o vinho</h3>
+                <p>
+                    Naruto Clássico (ou Naruto, como é oficialmente chamada a primeira parte da série) é a fase inicial da jornada de Naruto Uzumaki, lançada como mangá em 1999 e adaptada para anime entre 2002 e 2007.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            <article style="position: relative">
+                <img src="./imagem/naruto-shippuden.jpg" alt="Naruto Shippuden"/>
+                <header>
+                    <time>28/04/2025 às 19:39</time>
+                </header>
+                <h3>Naruto Shippuden ainda é muito assitido</h3>
+                <p>
+                    Naruto Shippuden é a segunda parte da saga de Naruto Uzumaki, cobrindo sua adolescência e evolução como ninja. O anime foi exibido entre 2007 e 2017, adaptando os volumes 28 ao 72 do mangá de Masashi Kishimoto.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagem/yu-yu-hakusho.jpg" alt="Yu-Yu-Hakusho"/>
+                <header>
+                    <time>28/04/2025 às 19:40</time>
+                </header>
+                <h3>Um Clássico que completou 30 anos</h3>
+                <p>
+                    Yu Yu Hakusho (幽☆遊☆白書, "O Relatório Sobrenatural de Yu Yu") é um clássico do mangá e anime dos anos 90, criado por Yoshihiro Togashi (o mesmo autor de Hunter x Hunter). A série mistura artes marciais, sobrenatural e um toque de investigação paranormal, com personagens carismáticos e lutas épicas.
+                </p>
+                <a href="#" title="Leia a noticia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
 </body>
 </html>
